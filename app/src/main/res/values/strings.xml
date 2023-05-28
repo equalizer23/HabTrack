@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HabTracker</string>
+    <string name="app_name">HabTrack</string>
+    <!-- Strings used for fragments for navigation -->
 </resources>

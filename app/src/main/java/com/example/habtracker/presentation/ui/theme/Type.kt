@@ -1,10 +1,16 @@
-package com.example.habtracker.ui.theme
+package com.example.habtracker.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.habtracker.R
+
+val notosans = FontFamily(
+    Font(R.font.notosans_regular, FontWeight.Bold)
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
